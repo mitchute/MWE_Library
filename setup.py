@@ -6,7 +6,7 @@ from setuptools import setup
 setup(
     name='mwe_lib',
     version=0.4,
-    packages=['mwe_lib', ""],
+    packages=['mwe_lib', "."],
     url='',
     license='',
     author='edwin',
