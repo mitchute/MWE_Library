@@ -8,7 +8,7 @@ def read_lines(filename):
 
 setup(
     name='mwe_lib',
-    version=0.6,
+    version=0.7,
     packages=['mwe_lib'],
     url='',
     license='',
