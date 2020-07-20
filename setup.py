@@ -3,13 +3,9 @@ import subprocess
 from setuptools import setup
 
 
-def get_version():
-    return subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).strip().decode("utf-8")
-
-
 setup(
     name='mwe_lib',
-    version=get_version(),
+    version=0.4,
     packages=['mwe_lib', ""],
     url='',
     license='',
