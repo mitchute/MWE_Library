@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='mwe_lib',
-    version='0.2',
+    version='0.1',
     packages=['mwe_lib'],
     url='',
     license='',
@@ -11,5 +11,6 @@ setup(
     description='MWE Library',
     package_data={
         "mwe_lib": ["*.txt", "config.toml"],  # add any txt files in the mwe_lib package
-    }
+    },
+    include_package_data=True,
 )
