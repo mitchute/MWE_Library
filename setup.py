@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='mwe_lib',
-    version='0.1',
+    version='0.3',
     packages=['mwe_lib'],
     url='',
     license='',
