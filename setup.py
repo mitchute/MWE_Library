@@ -9,9 +9,5 @@ setup(
     author='edwin',
     author_email='',
     description='MWE Library',
-    package_data={
-        "": ["config.toml"],
-        "mwe_lib": ["*.txt"],  # add any txt files in the mwe_lib package
-    },
     include_package_data=True,
 )
