@@ -18,5 +18,6 @@ setup(
     package_data={
         "mwe_lib": ["core/*", "resources/*", "config.toml", "runner.py"],
     },
+    entry_points={"runner=mwe_lib.runner:enstore"},
     install_requires=read_lines("requirements.txt"),
 )
