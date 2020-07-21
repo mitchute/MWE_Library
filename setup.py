@@ -33,7 +33,7 @@ print(lib_files)
 
 setup(
     name="mwe_lib",
-    version=0.11,
+    version=0.12,
     url="",
     license="",
     author="edwin",
