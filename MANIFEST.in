@@ -1,2 +1,2 @@
 recursive-include mwe_lib *
-recursive-exclude *.xml
+recursive-exclude mwe_lib *.xml
