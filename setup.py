@@ -29,6 +29,8 @@ for root, dirs, files in os.walk(mwe_pkg_dir):
             f_path = full_path.split(here)[1]
             lib_files.append(f_path)
 
+print(lib_files)
+
 setup(
     name="mwe_lib",
     version=0.9,
