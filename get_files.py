@@ -1,12 +1,5 @@
 import os
 
-from setuptools import setup
-
-
-def read_lines(filename):
-    with open(filename) as f_in:
-        return f_in.readlines()
-
 
 basename = os.path.basename
 join = os.path.join
@@ -29,16 +22,4 @@ for root, dirs, files in os.walk(mwe_pkg_dir):
             f_path = full_path.split(here)[1]
             lib_files.append(f_path)
 
-setup(
-    name="mwe_lib",
-    version=0.9,
-    url="",
-    license="",
-    author="edwin",
-    author_email="",
-    description="MWE Library",
-    packages=["mwe_lib"],
-    package_data={"mwe_lib": lib_files},
-    include_package_data=True,
-    install_requires=read_lines("requirements.txt"),
-)
+print(lib_files)
