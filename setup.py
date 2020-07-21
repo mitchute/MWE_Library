@@ -40,7 +40,7 @@ setup(
     author_email="",
     description="MWE Library",
     packages=["mwe_lib"],
-    package_data={"mwe_lib": lib_files},
+    package_data={"mwe_lib": ["*.csv", "*.json"]},
     include_package_data=True,
     install_requires=read_lines("requirements.txt"),
 )
