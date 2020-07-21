@@ -39,7 +39,6 @@ setup(
     author="edwin",
     author_email="",
     description="MWE Library",
-    packages=["mwe_lib"],
     include_package_data=True,
     install_requires=read_lines("requirements.txt"),
 )
